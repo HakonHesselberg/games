@@ -8,9 +8,9 @@ public class PullBowString : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        if (Input.GetButtonDown("Fire2"))
+        if (Input.GetButton("Fire2"))
         {
-            speed += Time.deltaTime*300;
+            speed += Time.deltaTime*100;
         }
         if (Input.GetButtonUp("Fire2"))
             {
@@ -21,7 +21,7 @@ public class PullBowString : MonoBehaviour {
                 spawnVector.x += 1;
                 Rigidbody instantiatedProjectile = Instantiate(Bullet, spawnVector, transform.rotation) as Rigidbody;
                 instantiatedProjectile.velocity = transform.TransformDirection(new Vector3(0, 0, speed));
-            
+                speed = 0;
             }
 
     }
