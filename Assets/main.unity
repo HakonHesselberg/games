@@ -341,8 +341,8 @@ GameObject:
   - 65: {fileID: 1500663134}
   - 23: {fileID: 1500663133}
   - 143: {fileID: 1500663138}
-  - 114: {fileID: 1500663137}
   - 114: {fileID: 1500663139}
+  - 114: {fileID: 1500663137}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -416,7 +416,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1500663132}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f7ce57fc1aea424ba3558c6ba3d1d67, type: 3}
+  m_Script: {fileID: 11500000, guid: c3e89c67adc5f6549ae8a3502464b2da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
@@ -447,7 +447,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1500663132}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec7e8ec36c8e38c48af511addaf2fac4, type: 3}
+  m_Script: {fileID: 11500000, guid: 0cb46b2c28f7ebd4a8022e7027743730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Bullet: {fileID: 136816, guid: 7f56817e80ba47c4193848227ea62073, type: 2}
