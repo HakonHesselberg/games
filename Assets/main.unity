@@ -399,6 +399,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1495738528}
+  - 135: {fileID: 1495738529}
   m_Layer: 0
   m_Name: ShotSpawn
   m_TagString: Untagged
@@ -418,6 +419,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1500663136}
   m_RootOrder: 0
+--- !u!135 &1495738529
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1495738527}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1500663132
 GameObject:
   m_ObjectHideFlags: 0
@@ -541,6 +554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bullet: {fileID: 136816, guid: 7f56817e80ba47c4193848227ea62073, type: 2}
   shotSpawn: {fileID: 1495738528}
+  maxDelay: 0.2
 --- !u!1 &1629859663
 GameObject:
   m_ObjectHideFlags: 0
