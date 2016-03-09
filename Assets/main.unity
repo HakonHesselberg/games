@@ -552,9 +552,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cb46b2c28f7ebd4a8022e7027743730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Bullet: {fileID: 136816, guid: 7f56817e80ba47c4193848227ea62073, type: 2}
-  shotSpawn: {fileID: 1495738528}
-  maxDelay: 0.2
+  Bullet: {fileID: 5470410, guid: a34d701fb05cda0499df9ac03d5f4a3e, type: 2}
+  speed: 20
 --- !u!1 &1629859663
 GameObject:
   m_ObjectHideFlags: 0

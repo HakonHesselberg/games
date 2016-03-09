@@ -3,7 +3,7 @@ using System.Collections;
 
 public class DestroyTimer : MonoBehaviour {
 
-    public float destroyTimer;
+    public float destroyTimer = 7;
 
     void Start()
     {
