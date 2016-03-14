@@ -446,6 +446,7 @@ GameObject:
   - 114: {fileID: 1500663137}
   - 114: {fileID: 1500663139}
   - 114: {fileID: 1500663140}
+  - 114: {fileID: 1500663141}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -568,6 +569,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bullet: {fileID: 5470410, guid: a34d701fb05cda0499df9ac03d5f4a3e, type: 2}
   speed: 0
+--- !u!114 &1500663141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1500663132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cc9fc418e9a30b4d81d1822b267385a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1629859663
 GameObject:
   m_ObjectHideFlags: 0
