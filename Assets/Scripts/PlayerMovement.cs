@@ -18,8 +18,16 @@ public class PlayerMovement : MonoBehaviour {
     void Update() {
         if (controller.isGrounded) {
             moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-            moveDirection = transform.TransformDirection(moveDirection);
+            //moveDirection = transform.TransformDirection(moveDirection);
             moveDirection *= speed;
+
+            if (Mathf.Abs(moveDirection.x) > 0 && Mathf.Abs(moveDirection.z) > 0)
+            {
+                moveDirection.x *= Mathf.Sqrt(0.5f);
+                moveDirection.z *= Mathf.Sqrt(0.5f);
+            }
+                
+
             if (Input.GetButton("Jump"))
                 moveDirection.y = jumpSpeed;
             
