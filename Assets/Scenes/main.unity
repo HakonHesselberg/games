@@ -414,11 +414,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1495738527}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.261, y: 0.0008664727, z: 0.14892578}
+  m_LocalPosition: {x: 1.261, y: 0.52586645, z: 0.14892578}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1500663136}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
 --- !u!135 &1495738529
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -508,8 +508,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.525, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1495738528}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
 --- !u!114 &1500663137

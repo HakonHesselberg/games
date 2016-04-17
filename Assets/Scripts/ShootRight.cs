@@ -12,7 +12,8 @@ public class ShootRight : MonoBehaviour {
         if (Input.GetButtonDown("Fire1"))
         {
             Vector3 spawnVector = transform.position;
-            spawnVector.x += 1;
+            spawnVector.x += 1/2;
+            spawnVector.z += 1/2;
             Rigidbody instantiatedProjectile = Instantiate(Bullet, spawnVector, transform.rotation) as Rigidbody;
             instantiatedProjectile.velocity = transform.TransformDirection(new Vector3(0, 0, speed));
         }
